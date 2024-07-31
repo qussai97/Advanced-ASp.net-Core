@@ -104,6 +104,15 @@ namespace ToDoApp.WebApi.Controllers
 
 
         }
-       
+        [HttpGet("test")]
+
+        public IActionResult Test()
+        {
+
+            return Ok();
+
+
+
+        }
     }
 }
